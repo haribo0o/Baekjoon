@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main()
+{
+	int n;
+	int sum = 0;
+	int inc = 0;
+	std::cin >> n;
+	
+	while(1)
+	{
+		if(6 * (sum) + 1 < n)	sum += ++inc;
+		else break;
+	}
+	std::cout << inc + 1;	
+}
